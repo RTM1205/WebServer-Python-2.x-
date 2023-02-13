@@ -8,7 +8,7 @@ class MyRequestHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
             self.path = '/index.html'
         return SimpleHTTPServer.SimpleHTTPRequestHandler.do_GET(self)
 
-PORT = 8000
+PORT = 8005
 
 Handler = MyRequestHandler
 

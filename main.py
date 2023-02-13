@@ -18,6 +18,7 @@ html = """
   </head>
   <body>
     <h1>Ejecutar scripts SSH</h1>
+    <input>
     %s
   </body>
 </html>
